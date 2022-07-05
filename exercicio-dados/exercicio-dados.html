@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <header class="header">
+        <h1>Treino do exercicio</h1>
+        <ul class="header-menu">
+            <li>vamos</li>
+            <li>ver</li>
+            <li>se deu certo</li>
+        </ul>
+    </header>
+
+
+    <div class="container">
+        <div>
+            <label for="">Número de residencias</label>
+            <input type="number" name="residencia" id="residencia">
+        </div>
+        <div>
+            <label for="">Bairro</label>
+            <input type="text" name="bairro" id="bairro">
+        </div>
+        <div>
+            <label for="">Cidade</label>
+            <input type="text" name="cidade" id="cidade">
+        </div>
+        <div>
+            <label for="">Area da casa</label>
+            <input type="number" name="casa" id="casa">
+        </div>
+
+        <div>
+            <button onclick="remover()">Apagar</button>
+            <button onclick="adicionar()">Salvar</button>
+        </div>
+    </div>
+
+    <div class="historico" id="history">Histórico:</div>
+    <div id="resultado"></div>
+
+
+
+    <script src="exercicio-dados.js"></script>
+</body>
+
+</html>
